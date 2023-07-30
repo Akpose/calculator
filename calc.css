@@ -70,13 +70,26 @@ button:hover {
 .operator {
   color: #337cac;
 }
+
+.back-space {
+  background-color: #242424;
+  border-color: #b0353a;
+  color: #fff;
+  grid-row: 5/6;
+  grid-column: 4 / 5;
+  
+}
+.back-space:hover {
+  background-color: #4d4c4c;
+}
+
 .all-clear {
   background-color: #f0595f;
   border-color: #b0353a;
   color: #fff;
   grid-row: 5/6;
-  grid-column: 3 / 5;
-  width: 100%;
+  grid-column: 3 / 4;
+ 
 }
 
 .all-clear:hover {
