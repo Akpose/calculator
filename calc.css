@@ -1,4 +1,4 @@
-@import url(‘https://fonts.googleapis.com/css?family=Montserrat&display=swap’);
+
 html {
   font-size: 62.5%;
   box-sizing: border-box;
@@ -42,12 +42,17 @@ body {
   box-shadow: inset 2px 2px 5px #babecc,
               inset -5px -5px 10px #ffffff73;  
 }
-.calculator .display p {
-  font-size: 40pt;
-  overflow-y: auto;
-  text-align: right;
-  color: #080808;
+
+.display .previous-operand{
+  color: rgba(100, 100, 100, 0.75);
+  font-size: 1.5rem;
 }
+.display .current-operand{
+  color: rgb(44, 44, 44);
+  font-size: 2.5rem;
+}
+
+
 button {
   height: 60px;
   background-color: #fff;
